@@ -31,8 +31,10 @@ def get_sp500_df():
         print(ohlcvs[symbol])
     
     df = pd.DataFrame(index=ohlcvs["GOOGL"].index)
+    df.index = df.index.tz_localize(None)
     df.index.name = "date"
     instruments = list(ohlcvs.keys())
+    print(instruments)
     for inst in instruments:
         inst_df = ohlcvs[inst]
         columns = list(map(lambda x: "{} {}".format(inst, x), inst_df.columns))
