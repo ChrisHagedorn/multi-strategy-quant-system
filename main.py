@@ -44,4 +44,4 @@ def get_sp500_df():
 
 df, instruments = get_sp500_df()
 
-df.to_excel("./data/sp500_data.xlsx", engine='xlsxwriter')  
+# df.to_excel("./data/sp500_data.xlsx", engine='xlsxwriter')  
