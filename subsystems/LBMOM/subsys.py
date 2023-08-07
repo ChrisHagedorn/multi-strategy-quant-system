@@ -1,6 +1,6 @@
 #[(44, 100), (156, 245), (23, 184), (176, 290), (215, 288), (245, 298), (59, 127), (134, 275), (220, 286), (60, 168), (208, 249), (19, 152), (38, 122), (234, 254), (227, 293), (64, 186), (28, 49), (22, 106), (25, 212), (144, 148), (260, 284)]
 
-#we are going to try to replicate a trading strategy discussed from our newsletter
+#we are going to try to replicate a trading strategy discussed in newsletter
 #post: https://hangukquant.substack.com/p/1500-trading-strategy-deconstructed
 import json
 import pandas as pd
